@@ -3,6 +3,6 @@ import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-  base: "/stocklab/",   // ★ repo 名稱要一致：stocklab
-  plugins: [react()],
+  base: "/stocklab/",
+  plugins: [react(), tailwindcss()],
 });
